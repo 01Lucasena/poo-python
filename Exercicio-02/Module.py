@@ -1,8 +1,3 @@
-import os
-
-
-os.system("cls||clear") #Limpar terminal
-
 class Livro:
 
     #construtor

@@ -1,4 +1,4 @@
-from .Class_endereco import Endereco
+from Class_endereco import Endereco
 from Abstract_funcionario import Funcionario
 
 class Engenheiro(Funcionario):
@@ -9,7 +9,7 @@ class Engenheiro(Funcionario):
         self.crea = crea
 
         def calcular_salario(self) -> float:
-            return 2000
+            return 5000
 
         def __str__ (self) -> str:
-            return f"\nCREA: {crea} \nSalário: {calcular_salario()}"
+            return f"\nCREA: {self.crea} \nSalário: {calcular_salario()}"

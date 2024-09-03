@@ -1,4 +1,3 @@
-
 class Endereco:
     def __init__(self, logradouro: str, numero: str, complemento: str, cep: str, cidade: str)  -> None:
         
@@ -9,6 +8,5 @@ class Endereco:
         self.cidade = cidade
 
         def __str__(self) -> str:
-            return f"\nEndereço do funcionário: \nLogradouro:{self.logradouro} \nNúmero: {self.numero} 
-            \nComplemento: {self.complemento} \nCep: {self.cep} \nCidade: {self.cidade}"
-
+            return f"Logradouro: {self.logradouro} \nNúmero: {self.numero} \nComplemento: {self.complemento} 
+            \nCEP: {self.cep} \n Cidade: {self.cidade}"

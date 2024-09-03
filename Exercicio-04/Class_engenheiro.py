@@ -12,4 +12,4 @@ class Engenheiro(Funcionario):
             return 2000
 
         def __str__ (self) -> str:
-            return ""
+            return f"\nCREA: {crea} \nSalário: {calcular_salario()}"

@@ -8,8 +8,9 @@ class Engenheiro(Funcionario):
         
         self.crea = crea
 
-        def calcular_salario(self) -> float:
-            return 5000
+        def calcular_salario(salario) -> float:
+            salario = 5000
+            return salario
 
         def __str__ (self) -> str:
-            return f"\nCREA: {self.crea} \nSalário: {calcular_salario()}"
+            return f"\nCREA: {self.crea} \nSalário: {calcular_salario}"

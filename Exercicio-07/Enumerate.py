@@ -14,11 +14,11 @@ class Pessoa:
         self.idade = idade
         self.sexo = sexo
 
-        def __str__(self) -> str:
-            return (f"\nNome: {self.nome}"
-                    f"\nIdade: {self.idade}"
-                    f"\nSexo: {self.sexo.value}")
-    
+    def __str__(self) -> str:
+        return (f"\nNome: {self.nome}"
+                f"\nIdade: {self.idade}"
+                f"\nSexo: {self.sexo.value}")
+
 #Instanciando classe pessoa
 pessoa_1 = Pessoa("Luscas", 25, Sexo.MASCULINO)
 

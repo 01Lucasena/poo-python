@@ -9,9 +9,9 @@ class Funcionario(ABC):
         self.idade = idade
         self.salario = salario
 
-        @abstractmethod
-        def calcular_salario(self) -> float:
-            pass
+    @abstractmethod
+    def calcular_salario(self) -> float:
+        pass
  
 
     

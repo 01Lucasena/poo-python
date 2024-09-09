@@ -25,13 +25,13 @@ class Funcionario:
         self.setor = setor
         self.sexo = sexo
 
-        def __str__(self) -> str:
-            return (f"\nID: {self.id}"
-                    f"\nNome: {self.nome}"
-                    f"\nIdade: {self.idade}"
-                    f"\nSalário: {self.salario}"
-                    f"\nSexo: {self.sexo.value}"
-                    f"\nSetor: {self.setor.value}")
+    def __str__(self) -> str:
+        return (f"\nID: {self.id}"
+                f"\nNome: {self.nome}"
+                f"\nIdade: {self.idade}"
+                f"\nSalário: {self.salario}"
+                f"\nSexo: {self.sexo.value}"
+                f"\nSetor: {self.setor.value}")
 
 funcionario_1 = Funcionario(123,"Luscas",24,7000.00,Setor.FINANCEIRO,Sexo.MASCULINO)
 

@@ -7,8 +7,8 @@ class Medico(Funcionario):
 
         self.crm = crm
 
-        def calcular_salario(self) -> float:
-            return 7500
+    def calcular_salario(self) -> float:
+        return 7500
 
-        def __str__ (self) -> str:
-            return f"\nCRM: {self.crm} \nSalário: {calcular_salario()}"
+    def __str__ (self) -> str:
+        return f"\nCRM: {self.crm} \nSalário: {calcular_salario()}"

@@ -7,8 +7,8 @@ class Motoboy(Funcionario):
 
         self.cnh = cnh
 
-        def calcular_salario(self) -> float:
-            return 2000
+    def calcular_salario(self) -> float:
+        return 2000
 
-        def __str__ (self) -> str:
-            return f"\nCNH: {self.cnh} \nSalário: {calcular_salario()}"
+    def __str__ (self) -> str:
+        return f"\nCNH: {self.cnh} \nSalário: {calcular_salario()}"

@@ -8,6 +8,9 @@ class Motoboy(Funcionario):
 
         self.cnh = cnh
 
+        def salario_final(self) -> float:
+            return self.salario
+
         def __str__ (self) -> str:
-            return f"CNH: {self.cnh} \nSalário: {self.salario}"
-        
+            return (f"{super().__str__()}"
+            f"CNH: {self.cnh}")
